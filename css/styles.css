@@ -1,0 +1,147 @@
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+h1, h2, h3{
+    font-family: "Montserrat-Bold";
+    
+}
+.container-fluid{
+    padding:3% 15% 7%
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand{
+    font-family:'ubuntu';
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+.download-button{
+    margin:5% 3% 0 0;
+}
+.title-img{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 55%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.features-edit{
+    text-align: center;
+    padding: 5%;
+}
+p{
+    color: #8f8f8f;
+}
+
+ /* Headings */
+
+
+ .big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+ } 
+
+
+
+.icons-features{
+    color: #ef8172;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.icons-features:hover{
+    color: #ff4c68;
+}
+#features{
+  padding:7% 15%;
+  background-color: #fff;
+  position: relative;
+
+}
+
+#testimonials{
+   
+    text-align: center;
+    background-color: #ef8172; 
+    color:#fff;
+
+}
+h2{
+   font-size: 3rem;
+   line-height: 1.5;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color:#ef8172 ;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-img{
+    width:15% ;
+    margin: 20px 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.card-body{
+    height: 302px;
+}
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+.col{
+   
+    padding: 3% 2%;
+}
+.price-btn{
+    width: 100%;
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding:7% 15%;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+#footer{
+    padding:7% 15% ;
+    text-align: center;
+}
+
+.fa-envelope{
+    color: black;
+}
+
+.footersocials{
+    margin-right: 20px 10px;
+}
+@media (max-width:1028px){
+   #title{
+    text-align: center;
+   }
+    .title-img{ 
+        position: static;
+        transform: rotate(0);
+        visibility: hidden;
+    }
+}
